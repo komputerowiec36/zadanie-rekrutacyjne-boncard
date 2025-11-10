@@ -1,0 +1,43 @@
+form{
+	margin-left: 2.7cm;
+}
+body{
+  background-color:#FFFFCC;
+  background-attachment: fixed;
+}
+.rectangle{
+  margin-left: 25.7cm;
+  margin-top:-5.2cm;
+  background-image: url('form.jpg');
+  background-repeat: no-repeat;
+  padding-top: 2cm;
+  padding-left: 6cm;
+  padding-right: 4cm;
+  padding-bottom: 2cm;
+  font-size: 23px;
+  width:16cm;
+}
+#logout
+{
+ margin-top:2cm;
+ margin-left: 2.8cm;
+}
+#tablica
+{
+width: 900px; 
+
+height: 200px;
+
+background-color:#e0f7fa;
+
+text-align: center;
+
+text-border: 80;
+
+text-width: 80px;
+
+font-size: 20px;
+
+font-weight: 200px;
+
+}

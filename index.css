@@ -1,0 +1,27 @@
+form {
+  margin-left: 2.2cm;
+  margin-top:0.2cm;
+}
+body{
+  background-attachment: fixed;
+}
+input[type=submit]{
+	margin-top:-0.6cm;
+    margin-left: 3.3cm;
+}
+.text{
+ margin-left: 0.5cm; 
+ margin-top: 0.5cm; 
+ color: red;
+}
+.rectangle{
+  margin-left: 21.7cm;
+  margin-top:8cm;
+  background-image: url('backgroud.jpg');
+  background-repeat: no-repeat;
+  padding: 2cm;
+  font-size: 23px;
+  width:12cm;
+}
+
+
