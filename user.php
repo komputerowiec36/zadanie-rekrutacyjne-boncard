@@ -28,7 +28,7 @@ if(mysqli_num_rows($res) > 0) {
 }
 $res1 = mysqli_query($sq,"SELECT * FROM cards WHERE login='$user';");
  
-echo "<table border='1' id='tablica'>
+echo "<table border='1' id='table'>
 
 <tr style= 'background-color:#d2d2d2'>
 
@@ -177,7 +177,7 @@ echo "</div>";
 ?>
 <div class="rectangle">
 <form action="" method="POST">
- <H2>Cards panel<H2><BR>
+ <H2>User panel<H2><BR>
  <label for="id" >Card id:</label><BR>
 <select name="id" style="width: 40px; height: 25px;">
   <option value=""></option>
@@ -193,16 +193,16 @@ echo "</div>";
  <label for="name" >name:</label><BR>
  <input type="text" id="name" name="name"><BR><BR>
  <label for="number">number:</label><BR>
- <input type="text" id="number" name="number"><BR><BR>
+ <input type="number" id="number" name="number" min=0><BR><BR>
  <label for="PIN">pin:</label><BR>
- <input type="text" id="pin" name="pin"><BR><BR>
+ <input type="number" id="pin" name="pin" min=0><BR><BR>
  <label for="activate">activation date:</label><BR>
  <input type="date" id="activate" name="activate">
  <input type="time" id="activate1" name="activate1"><BR><BR>
  <label for="valid">valid date:</label><BR>
  <input type="date" id="valid" name="valid"><BR><BR>
  <label for="saldo" >saldo:</label><BR>
- <input type="text" id="saldo" name="saldo"><BR><BR>
+ <input type="number" id="saldo" name="saldo" min=0><BR><BR>
 <input type = "Submit" style="width: 100px; height: 25px;" name="add" Value ="add" />
 <input type = "Submit" style="width: 100px; height: 25px;"name="edit" Value ="edit" />
 <input type = "Submit" style="width: 100px; height: 25px;" name="delete" Value ="delete" /><BR>
